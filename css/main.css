@@ -1,0 +1,128 @@
+#logo{
+    border-radius: 100%;
+    top: 7px;
+}
+.page-footer{
+    background-color: #9c0055 !important;
+}
+.nav-wrapper{
+    background-color: #9c0055 !important;
+}
+.sidenav-trigger{
+    margin-top: 1% !important;
+}
+nav ul li a{
+    font-size:larger !important;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+#arrow-section-component-1{
+    padding-top: 20%;
+    padding-left: 40%;
+    padding-right: 10%;
+}
+#arrow-section-component-2 img{
+    width:80%;
+    padding-top: 25%;
+}
+body{
+    background-color: aliceblue;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #logo{
+        width:50px;
+        position: absolute;
+        top: 3px;
+        left: -15px;
+    }
+    .arrow-section-component{
+        min-height: 10%;  
+        /* border: solid 3px black; */
+    }
+    #arrow-section-component-1{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #arrow-section-component-2 img{
+        width:100%;
+        padding-top: 2%;
+    }
+    #arrow-section-component-1 p{
+        text-align: justify;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #logo{
+        width:50px;
+        position: absolute;
+        top: 3px;
+        left: -15px;
+    }
+
+    .arrow-section-component{
+        min-height: 10%;  
+        /* border: solid 3px black; */
+    }
+    #arrow-section-component-1{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #arrow-section-component-2 img{
+        width:100%;
+        padding-top: 2%;
+    }
+    #arrow-section-component-1 p{
+        text-align: justify;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #logo{
+        width:50px;
+        position: absolute;
+        top: 7px;
+        left: -15px;
+    }
+    #arrow-section-component-1{
+        padding-top: 20%;
+        padding-left: 40%;
+        padding-right: 10%;
+    }
+    #arrow-section-component-2 img{
+        width:80%;
+        padding-top: 25%;
+    }
+    #arrow-section{
+        background-color: aliceblue;
+        color: black;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #logo{
+        width:50px;
+        position: absolute;
+        
+        left: 150px;
+        /* border: solid 3px white; */
+    }
+    #arrow-section-component-1{
+        padding-top: 20%;
+        padding-left: 40%;
+        padding-right: 10%;
+    }
+    #arrow-section-component-2 img{
+        width:80%;
+        padding-top: 25%;
+    }
+    #arrow-section{
+        background-color: aliceblue;
+        color: black;
+    }
+}
