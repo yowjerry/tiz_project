@@ -20,7 +20,7 @@
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M5.417 29.375v-2.083h29.166v2.083Zm0-8.333v-2.084h29.166v2.084Zm0-8.334v-2.083h29.166v2.083Z"/></svg></i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">TIZ</a></li>
+                    <li><a href="index.html">TIZ</a></li>
                     <li><a href="premium.html">Premium</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -28,31 +28,18 @@
         </nav>
 
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#">TIZ</a></li>
+            <li><a href="index.html">TIZ</a></li>
             <li><a href="premium.html">Premium</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="row section" id="arrow-section">
-            <div class="col s12 m6">
-                <div class="arrow-section-component" id="arrow-section-component-1">
-                    <h3>Jwe ak ti doudou a</h3>
-                    <p>
-                        Menaj ou, sexfriend ou, oubyen pansman'w ? Nenpot moun li ye a, ou kapab jwe avel. Tiz la pou edew pase yon bon moment avel.
-                    </p>
-                    <p>
-
-                    </p>
-                    <p>
-                        <button class="btn" onClick="download();">
-                            Download
-                        </button>
-                    </p>
-                </div>
-            </div>
-            <div class="col s12 m6">
-                <div class="arrow-section-component" id="arrow-section-component-2">
-                    <img src="images/couples/couple-2.jpg" alt="">
-                </div>
+            <div class="col s12">
+              <form method="post" action="https://sandbox.moncashbutton.digicelgroup.com/Moncash-middleware/Checkout/U2pGMWNrUklUMEphY0VFOSBNRlZWZWtWUmNHcEdaa1YxTm1VMlQwSXhYMWx5UVQwOQ==" >
+                <input type="hidden" name="amount" value="base64(encrypt(Amount for this order))"/>
+                <input type="hidden" name="orderId" value="base64(encrypt(Order Id))"/>
+                <input type="image" name="ap_image" src="https://sandbox.moncashbutton.digicelgroup.com/Moncash-middleware/resources/assets/images/MC_button.png"/>
+            </form>
+                    
             </div>
         </div>
     </div>

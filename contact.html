@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TIZ | CONTACT</title>
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/main.css">
     <style>
@@ -29,6 +29,7 @@
                         </svg></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">TIZ</a></li>
+                    <li><a href="premium.html">Premium</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
@@ -36,6 +37,7 @@
 
         <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">TIZ</a></li>
+            <li><a href="premium.html">Premium</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         <div class="row section" style="padding-top: 5%;padding-left: 20%;padding-right: 20%;">
@@ -43,16 +45,12 @@
                 <h1>Kontakte Nou</h1>
             </div>
             <div class="col s12">
-                <label for="name">Non'w</label>
-                <input type="text" id="name" placeholder="antre non'w">
-            </div>
-            <div class="col s12">
-                <label for="message">Tape message ou a la</label>
+                <label for="message">Hello, koman nou kapab edew?</label>
                 <textarea name="message" id="message" style="height: 300px;"></textarea>
             </div>
             <div class="col s12">
-                <button class="btn">
-                    VOYE
+                <button class="btn" onclick="sendMessage(document.getElementById('message').value)">
+                    Klike la pou voye message la ale
                 </button>
             </div>
         </div>
@@ -71,7 +69,6 @@
                         <li><a class="grey-text text-lighten-3"
                                 href="https://www.instagram.com/tiz.haiti/">Instagram</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Whatsapp</a></li>
                     </ul>
                 </div>
             </div>
